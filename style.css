@@ -11,21 +11,30 @@ body {
   font-size: 18px;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: 10%;
+  background-image: url(images/bg-pattern-bottom.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 60%;
 }
 
 main {
   background-color: white;
   border-radius: 20px;
-  width: 50%;
+  width: 350px;
   padding: 5px;
-  text-align: center;
+  background-image: url(images/bg-pattern-card.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 110% 40%;
 }
 
 .i1 {
   border-radius: 50%;
-  width: 30%;
+  border: solid white 2px;
 }
 
 .p1 {
@@ -42,15 +51,16 @@ main {
   color: grey;
 }
 
-.s1 {
+figure {
   border-bottom: 2px grey solid;
+  margin-top: 20%;
 }
 
 .s2 {
   display: grid;
   grid-template-columns: 120px 120px 120px;
-  justify-content: center;
   margin: 10px;
+  justify-content: center;
 }
 
 .bold {
